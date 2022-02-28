@@ -16,3 +16,18 @@
   grid-column: 1;
   grid-row: 1/3;
 }
+
+.header {
+  grid-row: 1;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.header-top {
+  background-color: green;
+}
+
+.header-bottom {
+  background-color: yellow;
+}
